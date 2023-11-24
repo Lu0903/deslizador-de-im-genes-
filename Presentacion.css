@@ -1,0 +1,160 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+:root
+{
+    --color-morado: #854dff;
+}
+
+body
+{
+    background-color: #181818;
+    margin-bottom: 240px;
+
+}
+
+h1
+{
+    width: 100%;
+    font-size: 60px;
+}
+
+p
+{
+    font-size: 18px;
+    width: 100%;
+}
+
+.menu
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 80px;
+    padding: 0px 40px;
+    background-color: #181818
+}
+
+.logo
+{
+    font-size: 30px;
+    font-family: 'Khand', sans-serif;
+}
+
+ul
+{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+    list-style: none;
+    color: white;
+}
+
+.seccion-uno
+{
+    position: relative;
+    width: 100%;
+    height: 68vh;
+    min-height: 750px;
+    background-image: url(Imagenes/fondo-uno.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    color: white;
+}
+
+.seccion-uno-hijo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    backdrop-filter: blur(8px);
+}
+
+.contenedor-contenido
+{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    height: 100%;
+    margin-bottom: -220px;
+}
+
+.contenedor-texto
+{
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+}
+
+.contenedor-texto button
+{
+    margin-top: 40px;
+    padding: 15px 90px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 40px;
+    background-color: var(--color-morado);
+}
+
+/*------------------------------------------------------------------------*/
+
+.contenedor-slider
+{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    padding: 0px 40px;
+}
+
+.icono-izquierdo, .icono-derecho
+{
+    width: 5%;
+    z-index: 1;
+}
+
+.icono-izquierdo img, .icono-derecho img
+{
+   width: 100%;
+
+}
+
+.slider-screen
+{
+    width: 90%;
+    border-radius: 12px;
+    box-shadow: 5px 5px 25px black;
+    overflow: hidden;
+}
+
+.slider
+{
+    display: flex;
+    width: 400%;
+}
+
+.slider .img-slider
+{
+   width: 25%;
+}

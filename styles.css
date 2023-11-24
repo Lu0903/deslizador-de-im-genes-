@@ -1,0 +1,171 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+:root
+{
+    --color-morado: #854dff;
+}
+
+body
+{
+    background-color: beige;
+    margin-bottom: 240px;
+
+}
+
+h1
+{
+    width: 100%;
+    font-size: 60px;
+}
+
+p
+{
+    font-size: 18px;
+    width: 100%;
+}
+
+.menu
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100px;
+    padding: 80px 30px;
+    background-color: beige;
+}
+
+.logo
+{
+    font-size: 40px;
+    font-family: 'Khand', sans-serif;
+}
+
+ul
+{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+    list-style: none;
+    color: black;
+}
+
+.seccion-uno
+{
+    position: relative;
+    width: 100%;
+    height: 68vh;
+    min-height: 750px;
+    background-image: url(Imagenes/FOTO\ 10\ PASANTIAS.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    color: beige;
+}
+
+.seccion-uno-hijo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    backdrop-filter: blur(8px);
+}
+
+.contenedor-contenido
+{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    height: 100%;
+    margin-bottom: -200px;
+}
+
+.contenedor-texto
+{
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+}
+
+.contenedor-texto button
+{
+    margin-top: 40px;
+    padding: 15px 90px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 40px;
+    background-color: var(--color-morado);
+}
+
+/*------------------------------------------------------------------------*/
+.img-slider {
+    width: 500%;
+    height: 800px;
+    overflow:auto;
+    position: relative;
+    display: inline-block;
+}
+
+
+.contenedor-slider
+{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    padding: 70px 40px;
+}
+
+.icono-izquierdo, .icono-derecho
+{
+    width: 5%;
+    z-index: 1;
+    background-color:beige;
+}
+
+.icono-izquierdo img, .icono-derecho img
+{
+   width: 100%;
+   background-color: beige;
+
+}
+
+.slider-screen
+{
+    width: 80%;
+    border-radius: 260px;
+    box-shadow: 5px 5px 25px black;
+    overflow:auto;
+}
+
+.slider
+{
+    display:flex;
+    width: 500%;
+}
+
+.slider .img-slider
+{
+   width: 250%;
+
+}
